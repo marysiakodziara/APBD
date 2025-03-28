@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\s28683\\RiderProjects\\Ex1\\Ex1\\Ex1.csproj": {}
+    "C:\\GirlyPopRepositories\\APBD\\Ex1\\Ex1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\s28683\\RiderProjects\\Ex1\\Ex1\\Ex1.csproj": {
+    "C:\\GirlyPopRepositories\\APBD\\Ex1\\Ex1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\s28683\\RiderProjects\\Ex1\\Ex1\\Ex1.csproj",
+        "projectUniqueName": "C:\\GirlyPopRepositories\\APBD\\Ex1\\Ex1.csproj",
         "projectName": "Ex1",
-        "projectPath": "C:\\Users\\s28683\\RiderProjects\\Ex1\\Ex1\\Ex1.csproj",
-        "packagesPath": "C:\\Users\\s28683\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\s28683\\RiderProjects\\Ex1\\Ex1\\obj\\",
+        "projectPath": "C:\\GirlyPopRepositories\\APBD\\Ex1\\Ex1.csproj",
+        "packagesPath": "C:\\Users\\Marysia\\.nuget\\packages\\",
+        "outputPath": "C:\\GirlyPopRepositories\\APBD\\Ex1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\s28683\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Marysia\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -60,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\Marysia\\.dotnet\\sdk\\8.0.406/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

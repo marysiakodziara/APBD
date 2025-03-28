@@ -6,9 +6,11 @@ public interface IContainer
     int Height { get; set; }
     int Weight { get; set; }
     int Depth { get; set; }
-    int SerialNumber { get; set; }
+    string SerialNumber { get; }
     int MaxCapacity { get; set; }
 
     void Unload();
-    void Load(double Mass);
+    void Load(double mass);
+    
+    string GenerateSerialNumber(ContainerType type, int index);
 }
