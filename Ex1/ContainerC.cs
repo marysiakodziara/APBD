@@ -11,8 +11,8 @@ public class ContainerC : IContainer
     public int Depth { get; set; }
     public string SerialNumber { get; }
     public int MaxCapacity { get; set; } 
-    string ProductType { get; set; }
-    int Temperature { get; set; }
+    Product ProductType { get; }
+    int Temperature { get; }
 
     public void Load(double mass)
     {
@@ -24,12 +24,14 @@ public class ContainerC : IContainer
         throw new NotImplementedException();
     }
     
-    public ContainerC(double mass, int height, int weight, int depth, int index) {
+    public ContainerC(double mass, int height, int weight, int depth, int index, Product productType) {
         Load(mass);
         Height = height;
         Weight = weight;
         Depth = depth;
         SerialNumber = GenerateSerialNumber(ContainerType.C, index);
+        ProductType = productType;
+        Temperature = (int)productType;
     }
 
     public string GenerateSerialNumber(ContainerType type, int index)
