@@ -6,7 +6,7 @@ public class ContainerG : IContainer, IHazardNotifier
     public int Height { get; set; }
     public int Weight { get; set; }
     public int Depth { get; set; }
-    public string SerialNumber { get; set; }
+    public string SerialNumber { get; }
     public int MaxCapacity { get; set; } 
     int Pressure { get; set; }
 

@@ -1,0 +1,1 @@
+﻿Niestety nie zdążyłam zrobić całego projektu, przesyłam to co mam z nadzieją na zdobycie części punktów :)
